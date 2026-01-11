@@ -17,7 +17,7 @@ UPLOAD_URL = os.environ.get('UPLOAD_URL', '')          # 节点或订阅上传�
 PROJECT_URL = os.environ.get('PROJECT_URL', '')        # 项目url,需要自动保活或自动上传订阅需要填写,例如：https://www.google.com,
 AUTO_ACCESS = os.environ.get('AUTO_ACCESS', 'false').lower() == 'true'  # false关闭自动保活, true开启自动保活，默认关闭
 FILE_PATH = os.environ.get('FILE_PATH', '.cache')      # 运行路径,sub.txt保存路径
-SUB_PATH = os.environ.get('SUB_PATH', 'xs11')           # 订阅token,默认sub，例如：https://www.google.com/sub
+SUB_PATH = os.environ.get('SUB_PATH', 'xs111')           # 订阅token,默认sub，例如：https://www.google.com/sub
 UUID = os.environ.get('UUID', 'acf3ccf9-27ab-4274-9b12-66074a7857e9')  # UUID,如使用哪吒v1,在不同的平台部署需要修改,否则会覆盖
 NEZHA_SERVER = os.environ.get('NEZHA_SERVER', '')      # 哪吒面板域名或ip, v1格式: nezha.xxx.com:8008, v0格式: nezha.xxx.com
 NEZHA_PORT = os.environ.get('NEZHA_PORT', '')          # v1哪吒请留空, v0哪吒的agent通信端口,自动匹配tls
